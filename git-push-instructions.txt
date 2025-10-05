@@ -1,0 +1,26 @@
+QUICK GIT PUSH INSTRUCTIONS
+
+1. FIRST - Navigate to your project folder:
+   cd /path/to/your/project
+
+2. Check what files have changed:
+   git status
+
+3. IF git status shows nothing:
+   - Make sure you saved your files
+   - Check you're in the right folder (use 'pwd' to see current directory)
+   - Check if you're in a git repository (look for .git folder with 'ls -la')
+
+4. Add all changes:
+   git add .
+
+5. Commit with message:
+   git commit -m "latest"
+
+6. Push to GitHub:
+   git push
+
+IF PUSH FAILS:
+- First time pushing? Use: git push -u origin main
+- Different branch? Use: git push origin your-branch-name
+- Authentication error? Check your credentials/token
