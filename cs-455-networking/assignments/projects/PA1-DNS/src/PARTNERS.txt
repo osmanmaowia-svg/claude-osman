@@ -1,0 +1,10 @@
+CS 455: Computer Communications and Networking
+PA-1: DNS Client
+PARTNERS.txt
+
+TEAM MEMBERS:
+============
+
+Student 1:
+Name: Tyler Youk
+GMU ID: G01344091

@@ -1,0 +1,122 @@
+$ python3 my-dns-client.py gmu.edu
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 20305
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 1
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = gmu.edu
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = gmu.edu
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 245
+answer.RDLENGTH = 4
+answer.RDATA = 129.174.134.28 ## resolved IP address ##
+----------------------------------------------------------------------------
+
+$ python3 my-dns-client.py google.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 65447
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 6
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = google.com
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.113 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.138 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.139 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.102 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.101 ## resolved IP address ##
+answer.NAME = google.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 55
+answer.RDLENGTH = 4
+answer.RDATA = 64.233.180.100 ## resolved IP address ##
+----------------------------------------------------------------------------
+
+$ python3 my-dns-client.py github.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------
+header.ID = 27489
+header.QR = 1
+header.OPCODE = 0
+header.AA = 0
+header.TC = 0
+header.RD = 1
+header.RA = 1
+header.Z = 0
+header.RCODE = 0
+header.QDCOUNT = 1
+header.ANCOUNT = 1
+header.NSCOUNT = 0
+header.ARCOUNT = 0
+question.QNAME = github.com
+question.QTYPE = 1
+question.QCLASS = 1
+answer.NAME = github.com
+answer.TYPE = 1
+answer.CLASS = 1
+answer.TTL = 60
+answer.RDLENGTH = 4
+answer.RDATA = 140.82.112.4 ## resolved IP address ##
+----------------------------------------------------------------------------
